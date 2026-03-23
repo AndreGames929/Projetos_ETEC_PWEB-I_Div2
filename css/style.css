@@ -11,6 +11,10 @@ body{
     line-height: 1.6; /*altura entre linhas 1.6x o tamanho da fonte*/
     color: #333; /*cor do texto cinza escuro*/
     background: linear-gradient(135deg,#667eea 0%, #764ba2 100%); /*gradiente de fundo: 135deg e a direção, de roxo claro para roxo escuro*/
+    min-height: 100vh;/*vh = viewport height, Minimo de 100% da altura da tela*/
+}
+header{
+    background-color: rgba(255, 255, 255, 0.95);/*branco com 95% de opacidade (transparencia)*/
     padding: 1rem 5%; /*1rem = 16px tamanho padrão da fonte, 5% da largura do container*/
     display: flex; /*ativa o flexbox para layout flexível*/
     align-items: center; /*alinha os itens verticalmente ao centro*/
